@@ -14,7 +14,7 @@ library(data.table)
 # Define UI for application that draws a histogram
 ui <- fluidPage(
    
-   titlePanel("Starwars"),
+   titlePanel("Starwars Character Table"),
    dataTableOutput("mytable")
    
    
